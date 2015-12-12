@@ -2,9 +2,8 @@ do
 
 function run(msg, matches)
   return 'Telegram Bot '.. VERSION .. [[ 
-  Checkout http://git.io/vO30o
-  GNU GPL v2 license.
-  @silenceangel for more info.]]
+  Maded By @infinitiSiS
+  Volcano Bot v1.0.3]]
 end
 
 return {
