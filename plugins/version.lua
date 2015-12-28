@@ -1,16 +1,17 @@
 do
 
 function run(msg, matches)
-  return 'Telegram Bot '.. VERSION .. [[ 
+  return 'Volcano Bot '.. VERSION .. [[ 
   Maded By @infinitiSiS
-  Volcano Bot v1.0.3]]
+  Volcano Bot v3.1.2]]
 end
 
 return {
   description = "Shows bot version", 
   usage = "!version: Shows bot version",
   patterns = {
-    "^!version$"
+    "^!version$" ,
+    "^!ver$"
   }, 
   run = run 
 }
